@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(228, 33, 33);
+}
+
+#btn{
+    margin-top: 20%;
+    margin-left: 60px;
+
+    width: 120px;
+    height: 60px;
+
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(3, 3, 3);
+    transition: 0.7s;
+}
+
+
+#btn:hover{
+    background: #000000;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.4);
+    color: white;
+    transform: translateY(-7px);
+}
+
+#container{
+    width: 450px;
+    height: 400px;
+
+    background-color: rgba(255, 1, 1, 0);
+
+    margin-left: 22%;
+}
+
+#animated{
+    width: 60px;
+    height: 60px;
+
+    margin-left: 22%;
+
+    position: absolute;
+    background-color: rgba(206, 236, 34, 0.671);
+
+    border-radius: 30px;
+}
